@@ -1,8 +1,9 @@
 import math
 import unittest
 from parameterized import parameterized
-from app.main import Calculator
+
 from app.error import InvalidInputException
+from app.main import Calculator
 
 
 class TestLogarithm(unittest.TestCase):
